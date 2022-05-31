@@ -1,0 +1,21 @@
+.infoBox {
+	text-align: left;
+	display: flex;
+	background-color: var(--colorInfoBox);
+	overflow: auto;
+	margin: 10px;
+	padding: 0px 25px 0px 5px;
+	margin-left: 0.5rem;
+	/* max-width: 45rem; */
+}
+.infoBox p {
+	margin: 0.8rem;
+}
+
+.infoBox a {
+	color: var(--colorTextPurple);
+	text-decoration-color: var(--colorHr);
+}
+.infoBox a:hover {
+	text-decoration-color: var(--colorTextPurple);
+}

@@ -1,0 +1,72 @@
+.content {
+	width: 100%;
+	background-color: var(--colorDark);
+	text-align: left;
+	max-width: 50rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.content hr {
+	height: 4px;
+	margin: 0 50px 0;
+	border: 0;
+	background: var(--colorHr);
+}
+.c-title {
+	font-size: 3.6rem;
+	font-weight: 100;
+	text-align: center;
+	color: var(--colorTextH);
+}
+.c-content {
+	color: var(--colorTextH);
+}
+.c-content h2 {
+	font-size: 1.8rem;
+	margin-left: 0.5rem;
+}
+.c-content p {
+	color: var(--colorTextP);
+	font-size: 1rem;
+	margin-left: 0.5rem;
+	font-weight: 100;
+}
+
+.code {
+	overflow: auto;
+	background-color: var(--colorCodeBg);
+	margin: 10px;
+	padding: 25px;
+	margin-left: 0.5rem;
+	border-radius: 10px;
+	/* max-width: 45rem; */
+	height: 190px;
+}
+.c-content div code {
+	font-size: 1rem;
+	word-spacing: 5px;
+}
+.c-content div code .nest {
+	margin-left: 20px;
+}
+.c-content div code .keyword {
+	color: #cc99cd;
+}
+.c-content div code .var .punc {
+	color: #ccc;
+}
+.c-content div code .string {
+	color: #7ec699;
+}
+.c-content div code .func {
+	color: #f08d49;
+}
+.c-content div code .tag {
+	color: #e2777a;
+}
+.c-content div code .comment {
+	color: #999;
+}
+.c-content div code .op {
+	color: #67cdcc;
+}
