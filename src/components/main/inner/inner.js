@@ -7,7 +7,11 @@ export function Inner() {
 	return (
 		<>
 			<div className="inner-content">
-				<Content></Content>
+				<div className="main-page-content">
+					{/* <div className="panel">PANEL CONTENT</div> */}
+					<Content></Content>
+					<div className="panel">PANEL CONTENT</div>
+				</div>
 				<Footer></Footer>
 			</div>
 		</>

@@ -5,6 +5,7 @@
 	color: var(--colorWhite);
 	font-weight: 100;
 	width: 100%;
+	margin-top: 25px;
 }
 .footer-section {
 	display: flex;

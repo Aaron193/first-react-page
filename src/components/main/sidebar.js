@@ -7,7 +7,9 @@ export function Sidebar() {
 				<aside side className="sb-aside">
 					<nav className="sb-nav">
 						<div className="sb-version">
-							<label>Version: </label>
+							<label>
+								<b>Version: </b>
+							</label>
 							<select className="sb-v-select">
 								<option>10.x (current)</option>
 								<option>8.x</option>
