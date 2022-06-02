@@ -1,0 +1,58 @@
+.panel-container {
+	background-color: var(--colorDarkest);
+	width: 20rem;
+	height: 500px;
+	margin: auto;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	padding-top: 30px;
+	border-radius: 0.7rem;
+	border-bottom: 0.3rem solid var(--colorMedium);
+}
+
+.panel-headder h3 {
+	font-size: 2rem;
+	margin: 0;
+}
+
+.panel-component {
+	background-color: var(--colorDark);
+	border-radius: 0.7rem;
+	margin: 1.5rem;
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+.panel-chat {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.panel-chat h5 {
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+.panel-chat button {
+	/* width: 60%; */
+	padding-left: 18px;
+	padding-right: 18px;
+	border-radius: 0.4rem;
+	height: 40px;
+	background-color: var(--colorMedium);
+	border: none;
+	outline: none;
+	margin-bottom: 10px;
+	color: var(--colorWhite);
+	font-weight: 600;
+	font-size: 18px;
+	text-transform: uppercase;
+	transition: 300ms ease-in-out;
+}
+.panel-chat button:hover {
+	cursor: pointer;
+	background-color: var(--colorSemiMedium);
+}
+@media only screen and (max-width: 1490px) {
+	.panel-container {
+		display: none;
+	}
+}

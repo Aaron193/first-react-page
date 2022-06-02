@@ -2,6 +2,7 @@ import '../../../style/main/inner.css';
 
 import { Content } from './content';
 import { Footer } from './footer';
+import { Panel } from './panel';
 
 export function Inner() {
 	return (
@@ -10,7 +11,7 @@ export function Inner() {
 				<div className="main-page-content">
 					{/* <div className="panel">PANEL CONTENT</div> */}
 					<Content></Content>
-					<div className="panel">PANEL CONTENT</div>
+					<Panel></Panel>
 				</div>
 				<Footer></Footer>
 			</div>

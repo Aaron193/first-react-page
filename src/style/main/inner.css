@@ -12,20 +12,3 @@
 	flex-direction: row;
 	width: 100%;
 }
-.panel {
-	background-color: rgb(25, 6, 36);
-	width: 20rem;
-	height: 500px;
-	margin: auto;
-	text-align: center;
-	color: white;
-	font-size: 30px;
-	padding-top: 30px;
-	border-bottom: 0.3rem solid #333e6b;
-}
-
-@media only screen and (max-width: 1490px) {
-	.panel {
-		display: none;
-	}
-}
